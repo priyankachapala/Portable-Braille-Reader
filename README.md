@@ -8,6 +8,11 @@ Components Recquired<br />
 3.6-Driver circuits for linear push pull actuators<br />
 4.6-push pull solenoids<br />
     Microcontroller should be choosen carefully as there will be many memory limitations, delays and code compatibilty with various microcntrollers. However, I have used PIC16F877A which has a Flash Memory of 14.3KB (sufficient for my code).
+    
+Software recquired<br />
+1. MPLAB X IDE Compiler<br />
+2. MPLAB XC8 Compiler<br />
+    
 
 Strategy to develop the system<br />
 1.Study the microcntroller<br />
@@ -21,6 +26,10 @@ Algorithm to convert Single Alphabet into Braille
 Each English alphabet in the braille is represented by 6 dots which are in the form similar to a 3 x 2 matrix <br />
 Each dot in the braille language is realized by the actuation of a solenoid in our circuit.The six driver circuits are connected to one of the ports of theMCU.To actuate the solenoid,binary pattern corresponding to each alphabet is passed to the port of the PIC microcontroller.<br />
 Braille encoding for different alphabets can be found here https://en.wikipedia.org/wiki/Braille_ASCII<br />
+
+Now flash the code using MPLAB X IDE compiler into PIC16F877A microcontroller 
+
+
 
 
 
