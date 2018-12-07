@@ -30,9 +30,9 @@ Braille encoding for different alphabets can be found here https://en.wikipedia.
 Now flash the code using MPLAB X IDE compiler into PIC16F877A microcontroller<br />
 
 Solenoid Driver Circuit<br />
-A typical digital logic output pin of any microcontroller can supply only tens of mA of current. This current is not sucient to drive the solenoids.So it is needed to have a driver circuit.In order to damp the back emf produced by the driver circuit, we isolate itfrom the digital pin. For this purpose an optoisolator 4N35 is used.OptoIsolator is essentially a combination of two distinct devices: an OpticalTransmitter, typically a gallium arsenide LED and optical receiver such as
+A typical digital logic output pin of any microcontroller can supply only tens of mA of current. This current is not sufficient to drive the solenoids.So it is needed to have a driver circuit.In order to damp the back emf produced by the driver circuit, we isolate itfrom the digital pin. For this purpose an optoisolator 4N35 is used.OptoIsolator is essentially a combination of two distinct devices: an OpticalTransmitter, typically a gallium arsenide LED and optical receiver such as
 a photo transistor. The circuit is kept electrically isolated but there is an optical transmission path to transfer signal between elements of circuit. Base is connected to ground via a suitable external high value resistor to
-control the switching sensitivity making it more stable and resistant to false triggering by external electrical noise or voltage transients. The output current of the optocoupler is not sucient to drive the solenoid
+control the switching sensitivity making it more stable and resistant to false triggering by external electrical noise or voltage transients. The output current of the optocoupler is not sufficient to drive the solenoid
 so a power mosfet 2SK4017 is used. The Circuit daigram can be found in the images,br />
 
 
@@ -42,7 +42,7 @@ Input Voltage=5V<br />
 4N35 input voltage = 1.7V<br />
 Max input current of 4N35=10mA<br />
 Resistance R= (5 - 1.7)/10mA= 330ohm<br />
-Since the emitter current of photo transistor is not sucient to drive our solenoid (requires 1.1A), we use a power MOSFET which provides 5-20A.<br />
+Since the emitter current of photo transistor is not suFficient to drive our solenoid (requires 1.1A), we use a power MOSFET which provides 5-20A.<br />
 
 
 
