@@ -22,9 +22,9 @@ Strategy to develop the system<br />
     
 make sure that the Baud rate of Microcontroller and HC-05 Bluetooth module are same. Baud rate calculation of PIC16F877A can be found in images folder<br />
 
-Algorithm to convert Single Alphabet into Braille
+Algorithm to convert Single Alphabet into Braille<br />
 Each English alphabet in the braille is represented by 6 dots which are in the form similar to a 3 x 2 matrix <br />
-Each dot in the braille language is realized by the actuation of a solenoid in our circuit.The six driver circuits are connected to one of the ports of theMCU.To actuate the solenoid,binary pattern corresponding to each alphabet is passed to the port of the PIC microcontroller.<br />
+Each dot in the braille language is realized by the actuation of a solenoid in our circuit.The six driver circuits are connected to one of the ports of theMCU. To actuate the solenoid,binary pattern corresponding to each alphabet is passed to the port of the PIC microcontroller and the detailed implemenataion can be found in the code<br />
 Braille encoding for different alphabets can be found here https://en.wikipedia.org/wiki/Braille_ASCII<br />
 
 Now flash the code using MPLAB X IDE compiler into PIC16F877A microcontroller<br />
