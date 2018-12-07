@@ -15,3 +15,4 @@ Strategy to develop the system
 3.Algorithm to convert single alphabet to Braille text
 4.design and test solenoid driver circuit
     
+    hh
